@@ -64,6 +64,31 @@ export function Footer() {
           <span>© {year} BoschPrepa. Tous droits réservés.</span>
           <span>Atelier de préparation moteur · Perpignan (66)</span>
         </div>
+
+        <div className="mt-4 flex justify-center sm:justify-end">
+          <a
+            href="https://www.audemarmedia.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-1.5 text-[11px] uppercase tracking-[0.22em] text-bone/30 transition-colors hover:text-lime"
+            aria-label="Site réalisé par AudemarMedia — ouvre dans un nouvel onglet"
+          >
+            <span>Site by</span>
+            <span className="font-semibold text-bone/60 transition-colors group-hover:text-lime">
+              AudemarMedia
+            </span>
+            <svg
+              viewBox="0 0 12 12"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              className="h-2.5 w-2.5 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+              aria-hidden="true"
+            >
+              <path d="M3 9L9 3M9 3H4M9 3V8" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </a>
+        </div>
       </div>
     </footer>
   );
